@@ -9,21 +9,27 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 1.750em;
   letter-spacing: -1.5px;
 }
 
 h1.title {
-  font-size: 3em;
+  font-size: 2.500em;
   letter-spacing: 0.1em;
   text-align: center;
   color: #FF3112;
 }
 
 h2 {
-  font-size: 1.500em;
+  font-family: 'Amatic SC';
+  font-size: 2.50em;
   color: #202020;
+  letter-spacing: 0.05em;
 }
 
 .btn {
@@ -40,6 +46,7 @@ h2 {
 .btn:hover {
   color: #FFFFFF;
   background-color: #FF3112;
+  text-decoration: none;
 }
 
 ul.nav {
@@ -59,23 +66,32 @@ ul.nav li a {
   color: #202020;
 }
 
+ul.nav li a:hover {
+  color: #FF3112;
+}
+
+.intro-text {
+  margin-top: 50px;
+  text-align:
+}
+
 #top-header {
   border-bottom: 4px solid #505050;
   margin-top: 20px;
 }
 
 #intro {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
-#new-cupcakes img {
-  border: 8px solid #FAF3BC;
+#san-francisco img {
+  border: 8px solid #505050;
   margin: 0 0 20px 0;
 }
 
 #featured-cupcake img {
-  border: 8px solid #FAF3BC;
+  border: 8px solid #505050;
 }
 
 #copyright {
