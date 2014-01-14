@@ -1,0 +1,98 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  background: #FFFFFF url('img/texturetastic_gray.png') repeat;
+}
+
+a {
+  color: #FF3112;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+h1.title {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #FF3112;
+}
+
+h2 {
+  font-size: 1.500em;
+  color: #202020;
+}
+
+.btn {
+  color: #FFCCC4;
+  background: #E02B10;
+  padding: 20px 30px;
+  margin: 40px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.0em;
+  letter-spacing: 0.2em;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #FF3112;
+}
+
+ul.nav {
+  margin: 10px 0 0 0;
+  list-style: none;
+  float: right;
+  font-family: 'Amatic SC';
+  font-size: 2.5em
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 50px;
+}
+
+ul.nav li a {
+  color: #202020;
+}
+
+#top-header {
+  border-bottom: 4px solid #505050;
+  margin-top: 20px;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#new-cupcakes img {
+  border: 8px solid #FAF3BC;
+  margin: 0 0 20px 0;
+}
+
+#featured-cupcake img {
+  border: 8px solid #FAF3BC;
+}
+
+#copyright {
+  border-top: 8px solid #2A0600;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+img.logo {
+  padding: 4px;
+  border: 4px solid #505050;
+}
+
+/* Responsive Images */
+img.scale-with-grid {
+  outline: 0;
+  max-width: 100%;
+  height: auto;
+}
