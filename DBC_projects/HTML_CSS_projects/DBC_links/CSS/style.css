@@ -5,5 +5,11 @@ ul {
 }
 
 li {
-  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  width: 120px;
+  text-align: center;
 }
