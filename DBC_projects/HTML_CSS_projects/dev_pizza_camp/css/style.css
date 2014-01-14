@@ -1,0 +1,35 @@
+body {
+  background: #000000 url('img/red-bricks.jpg') center top;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah';
+  font-size: 2em;
+  margin: 0px;
+  text-align: center;
+}
+
+#top-header {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#top-header h1 {
+  font-family: 'Monoton', sans-serif;
+  font-size: 5em;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+#menu {
+}
+
+.menu-section {
+  padding: 10px;
+  background-color:rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
