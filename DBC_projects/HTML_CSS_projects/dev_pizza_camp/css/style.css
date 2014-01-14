@@ -1,13 +1,7 @@
 body {
   background: #000000 url('img/red-bricks.jpg') center top;
   color: #FFFFFF;
-}
-
-h1 {
-  font-family: 'Gloria Hallelujah';
-  font-size: 2em;
-  margin: 0px;
-  text-align: center;
+  font-family: 'News Cycle';
 }
 
 #top-header {
@@ -16,13 +10,13 @@ h1 {
 
 #top-header h1 {
   font-family: 'Monoton', sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 100;
   color: white;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.4em;
 }
 
 #menu {
@@ -30,6 +24,42 @@ h1 {
 
 .menu-section {
   padding: 10px;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.8);
   border-radius: 10px;
+  margin-top: 5px;
+}
+
+.menu-section ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.menu-section li {
+  margin-bottom: 5px;
+}
+
+
+.menu-section h1 {
+  font-family: 'Gloria Hallelujah';
+  font-size: 1.5em;
+  margin: 0px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 1.2em;
+  margin: 0px;
+}
+
+.menu-section h3 {
+  display: block;
+  float: right;
+  font-size: 1em;
+  margin-top: 4px;
+}
+
+.menu-section p {
+  font-size: 0.8em;
+  margin: 0px;
 }
