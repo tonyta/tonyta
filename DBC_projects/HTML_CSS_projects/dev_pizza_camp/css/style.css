@@ -18,12 +18,21 @@ body {
   letter-spacing: 0.2em;
 }
 
-.logo {
+img.logo-lt {
   display: inline;
   float: left;
 }
 
-.logo-rt {
+img.logo {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  background-color:rgba(255,255,255,0.5);
+}
+
+img.logo-rt {
   display: inline;
   float: right;
   /* This flipped the image horizontally (across vertical axis) */
