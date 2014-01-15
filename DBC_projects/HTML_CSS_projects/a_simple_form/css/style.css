@@ -1,0 +1,27 @@
+body {
+  background: #000000 url('img/or-bg.jpg');
+  color: white;
+  text-align: center;
+}
+
+.container_12 {
+  background: rgba(0,0,0,0.7)
+}
+
+#logo {
+  margin-top: 20px;
+}
+
+#title {
+  font-family: 'Nobile';
+  font-size: 1.6em;
+  letter-spacing: 0.2em;
+  margin-top: 35px;
+  margin-bottom:20px;
+}
+
+
+
+input {
+  padding: 5px;
+}
