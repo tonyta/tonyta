@@ -1,6 +1,6 @@
 body {
   background: #000000 url('img/red-bricks.jpg') center top;
-  color: #FFFFFF;
+  color: #FFFFBB;
   font-family: 'News Cycle';
 }
 
@@ -56,6 +56,7 @@ body {
 
 .menu-section h1 {
   font-family: 'Gloria Hallelujah';
+  color: #FFFFFF;
   font-size: 1.5em;
   margin: 0px;
   text-align: center;
@@ -72,7 +73,14 @@ body {
   display: block;
   float: right;
   font-size: 1em;
-  margin-top: 4px;
+  margin-top: 3px;
+}
+
+.menu-section h4 {
+  color: #FFFFFF;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
 }
 
 .menu-section p {
