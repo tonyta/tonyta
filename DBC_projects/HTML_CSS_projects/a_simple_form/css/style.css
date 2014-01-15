@@ -1,11 +1,13 @@
 body {
   background: #000000 url('img/or-bg.jpg');
+  background-position: center top;
   color: white;
   text-align: center;
+  font-family: 'Source Sans Pro';
 }
 
 .container_12 {
-  background: rgba(0,0,0,0.7)
+  background: rgba(0,0,20,0.7);
 }
 
 #logo {
@@ -20,8 +22,73 @@ body {
   margin-bottom:20px;
 }
 
+form {
+  margin-bottom: 200px;
+}
 
+fieldset {
+  border: none;
+  border-top: dotted;
+  border-width: thin;
+}
 
-input {
+legend {
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  display: inline;
+}
+
+input,
+select,
+textarea {
+  border: 0;
   padding: 5px;
+  margin: 5px;
+}
+
+input[type="text"],
+select {
+  width: 200px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+input[type="submit"] {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 1.2em;
+}
+
+input[name="submit"] {
+  background: #cb0000;
+  color: white;
+  text-transform: uppercase;
+}
+
+input[name="cancel"] {
+  background: #525271;
+  color: #1d1d1d;
+  text-transform: lowercase;
+}
+
+#hipaa {
+  border-top: 3px double #7b7ba0;
+  color: #5d5d7c;
+  font-weight:100;
+  margin: 15px;
+  font-size: .6em;
+  text-align: justify;
 }

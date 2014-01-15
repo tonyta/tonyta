@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
   <link href='http://fonts.googleapis.com/css?family=Nobile:400,700' rel='stylesheet' type='text/css'/>
-  <link href='http://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="all" href="css/style.css"/>
 
 </head>
@@ -17,43 +17,86 @@
     <div class="grid_6 omega push_2" id="title"><h1>Doc Bootcamp</h1></div>
   </div>
   <div class="container_12 clearfix">
-    <form class="grid_8 push_2" action="#" method="POST" name="my_simple_form">
+    <form class="grid_6 push_3" action="#" method="POST" name="my_simple_form">
       <fieldset>
-        <legend>Important Information</legend>
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username"><br>
-  
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password"><br>
-        
-        <input type="radio" name="gender" value="Male" id="male"><label for="male">Male</label><br>
-        <input type="radio" name="gender" value="Female" id="female"><label for="female">Female</label><br>
-        
-        <input type="checkbox" name="foods" value="Grapes" id="grapes"><label for="grapes">Grapes</label><br>
-        <input type="checkbox" name="foods" value="Apples" id="apples"><label for="apples">Apples</label><br>
-        <input type="checkbox" name="foods" value="Bananas" id="bananas"><label for="bananas">Bananas</label><br>
+        <legend>Personal Info</legend>
+        <input type="text" name="first-name" placeholder="First Name"><br>
+        <input type="text" name="last-name" placeholder="Last Name"><br>
+        <input type="text" name="birth-date" placeholder="Birth Date (mm/dd/yyyy)"><br>
+        <h2>Gender :</h2>
+        <input type="radio" name="gender" value="Male" id="sex-male"><label for="sex-male">Male</label>
+        <input type="radio" name="gender" value="Female" id="sex-female"><label for="sex-female">Female</label><br>
       </fieldset>
       <fieldset>
-        <legend align="center">Optional Items</legend>
-        <label for="essay">We want to know more about you<br>Write a short essay about yourself!</label><br>
-        <textarea name="essay" id="essay" rows="10" cols="30"></textarea><br>
-        <label for="continents">Where are you from?</label><br>
-        <select name="continents" id="continents">
-          <optgroup label="America">
-            <option>North America</option>
-            <option>South America</option>
+      <legend>Health Info &amp; History</legend>
+        <h2>How do you feel?</h2>
+        <select name="condition" id="condition">
+          <option disabled selected>General Condition...</option>
+          <optgroup label="Good">
+            <option>Like a million bucks!</option>
+            <option>Never been better!</option>
+            <option>I'm feeling great!</option>
+            <option>Pretty good</option>
           </optgroup>
-          <optgroup label="Eurasia">
-            <option>Europe</option>
-            <option>Asia</option>
+          <optgroup label="Okay">
+            <option>I'm doing alright.</option>
+            <option>I'm okay, I guess.</option>
+            <option>Hangin' in there.</option>
+            <option>I've been better.</option>
           </optgroup>
-          <option>Africa</option>
-          <option>Australia</option>
-          <option>Antarctica</option>
-        </select><br>
+          <optgroup label="Bad">
+            <option>Not so great, Doc.</option>
+            <option>I feel terrible.</option>
+            <option>I'm not gonna make it!</option>
+            <option>Aaarrrrrrghh!!!!</option>
+            <option>...[no response]...</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <h2>Current Symptoms:  </h2>
+        <br>
+        <input type="checkbox" name="symptoms" value="coughing" id="coughing"><label for="coughing">coughing</label>
+        <input type="checkbox" name="symptoms" value="heart palpitations" id="heart palpitations"><label for="heart palpitations">heart palpitations</label>
+        <input type="checkbox" name="symptoms" value="hands for feet" id="hands for feet"><label for="hands for feet">hands for feet</label>
+        <br>
+        <input type="checkbox" name="symptoms" value="vertigo" id="vertigo"><label for="vertigo">vertigo</label>
+        <input type="checkbox" name="symptoms" value="brainache" id="brainache"><label for="brainache">brainache</label>
+        <input type="checkbox" name="symptoms" value="third eye syndrome" id="third eye syndrome"><label for="third eye syndrome">&quot;third eye&quot; syndrome</label>
+        <br><br>
+        <h2>Illness History:</h2><br>
+        <input type="checkbox" name="symptoms" value="food coma" id="food coma"><label for="food coma">food coma</label>
+        <input type="checkbox" name="symptoms" value="dysentery" id="dysentery"><label for="dysentery">dysentery</label>
+        <input type="checkbox" name="symptoms" value="heartbreak" id="heartbreak"><label for="heartbreak">heartbreak</label>
+        <input type="checkbox" name="symptoms" value="death" id="death"><label for="death">death</label>
       </fieldset>
-      <input type="submit" value="Continue">
+      <fieldset>
+        <legend>Drugs &amp; Addictions</legend>
+        <h2>Check all that applies:</h2><br>
+        <input type="checkbox" name="drugs" value="acetaminophen" id="acetaminophen"><label for="acetaminophen">acetaminophen</label>
+        <input type="checkbox" name="drugs" value="booze" id="booze"><label for="booze">booze</label>
+        <input type="checkbox" name="drugs" value="tobacco" id="tobacco"><label for="tobacco">tobacco</label>
+        <input type="checkbox" name="drugs" value="marijuana" id="marijuana"><label for="marijuana">marijuana</label>
+        <input type="checkbox" name="drugs" value="cocaine" id="cocaine"><label for="cocaine">cocaine</label>
+        <input type="checkbox" name="drugs" value="heroin" id="heroin"><label for="heroin">heroin</label>
+        <input type="checkbox" name="drugs" value="blue crystal meth" id="blue crystal meth"><label for="blue crystal meth">blue crystal meth</label>
+        <input type="checkbox" name="drugs" value="bacon" id="bacon"><label for="bacon">bacon</label>
+      </fieldset>
+      <fieldset>
+        <legend align="center">Additional Info</legend>
+        <label for="essay">Anything else you want to share?<br>(C'mon, you can tell us.)</label><br>
+        <textarea name="essay" id="essay" placeholder="We won't tell anyone... Promise."></textarea><br>
+      </fieldset>
+      <fieldset>
+        <legend align="center">Submit</legend>
+      </fieldset>
+      <input type="submit" name="cancel" value="Actually...uh...Nevermind">
+      <input type="submit" name="submit" value="Continue">
     </form>
   </div>
+  <div class="container_12 clearfix"><div id="hipaa">
+    <h4>Privacy Disclaimer and HIPAA Statement</h4>
+    <p>The information contained in this form may contain privileged and confidential information, including patient information protected by federal and state privacy laws. It is intended only for the use of the person(s) named above and Doc Bootcamp, Inc and its affiliated entities (collectively "DocBC"). If you are not the intended recipient, you are hereby notified that any review, dissemination, distribution, or duplication of this communication is strictly prohibited.</p>
+    <p>DocBC uses health information about you for treatment, to obtain payment for treatment, to evaluate the quality of care you receive, and for other administrative and operational purposes. Your health information is contained in a medical record that is the physical property and responsibility of DocBC. DocBC is required by law to maintain the privacy of health information about you and provide you with this notice of our legal duties and privacy practices with respect to your health information ("Notice of Privacy Practices" or "Notice"). We must abide by the terms of this Notice currently in effect. DocBC reserves the right to change the terms of this Notice, our privacy practices, and to make the new provisions effective for all protected health information we maintain.  You may contact your local DocBC location or DocBC's Chief Privacy Officer to obtain a revised Notice of Privacy Practices.</p>
+  </div></div>
 </body>
 </html>
